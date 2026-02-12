@@ -33,10 +33,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body>
+      <body className="layout">
         <GoogleAnalytics />
         <Navbar />
-        <main id="main-content">{children}</main>
+        <main id="main-content" className="main">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
