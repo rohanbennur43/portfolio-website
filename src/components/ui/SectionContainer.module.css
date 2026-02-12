@@ -1,0 +1,31 @@
+.section {
+  padding: var(--space-20) var(--space-6);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.narrow .inner {
+  max-width: 720px;
+}
+
+/* Backgrounds */
+.white {
+  background-color: var(--color-white);
+}
+
+.offwhite {
+  background-color: var(--color-off-white);
+}
+
+.lightgray {
+  background-color: var(--color-light-gray);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--space-12) var(--space-4);
+  }
+}
