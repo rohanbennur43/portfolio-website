@@ -11,7 +11,7 @@ export default function Footer() {
         </p>
         <div className={styles.links}>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/rohanbennur43"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
@@ -20,7 +20,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/rohan-bennur"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
