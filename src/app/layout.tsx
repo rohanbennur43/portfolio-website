@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://yourdomain.com"
   ),
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-16x16.png",
   },
 };
 
